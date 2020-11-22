@@ -7,7 +7,7 @@ int main() {
 	Temps temps;
 	//get time from user
 	cout << "Entrer une heure";
-	temps.operator>>(temps);
+	cin >> temps;
 
 	//user choice
 	char choix = 0;
