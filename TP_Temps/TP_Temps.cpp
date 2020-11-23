@@ -11,11 +11,11 @@ int main() {
 
 	//user choice
 	char choix = 0;
-	cout << "Choisissez le type d'affichage, 'A' pour Anglaise, 'B' pour francaise";
+	cout << "Choisissez le type d'affichage, 'A' pour Anglaise, 'F' pour francaise";
 	if(choix == 'A'){
 		temps.afficherHeureEn();
 	}
-	else if(choix == 'B') {
+	else if(choix == 'F') {
 		temps.afficherHeureFr();
 	}
 	
